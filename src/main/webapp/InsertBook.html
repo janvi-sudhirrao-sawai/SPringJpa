@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<body style="margin-top:35px">
+<div class="container">
+	<h1 class="display-4">Insert Book Form</h1>
+	<hr>
+	<centre>]
+<form action="newbook" method="post">
+    <table>
+        <tr>
+            <td>Book Id</td>
+            <td><input type="text" name="bookid"class="form-control"required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>ISBN</td>
+            <td><input type="text" name="isbn" class="form-control"required autocomplete="off"></td>
+        </tr><tr>
+            <td>Title</td>
+            <td><input type="text" name="title"class="form-control"required autocomplete="off" ></td>
+        </tr><tr>
+            <td>Author</td>
+            <td><input type="text" name="author"class="form-control" required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Publisher</td>
+            <td><input type="text" name="publisher"class="form-control" required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Publication Year</td>
+            <td><input type="number" name="publicationyear"class="form-control"required autocomplete="off" ></td>
+        </tr>
+        <tr>
+            <td>Genre</td>
+	<td>
+				<select name="genre" class="form-control">
+					<option value="Detective Fiction">Detective Fiction</option>
+					<option value="Drama">Drama</option>
+					<option value="Non Fiction">Non Fiction</option>
+					<option value="Mystery">Mystery</option>
+					<option value="Self Help Book">Self Help Book</option>
+					<option value="Thriller">Thriller</option>
+					<option value="philosophy">philosophy</option>
+				</select>
+			</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td><input type="text" name="description"class="form-control" required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Pages</td>
+            <td><input type="number" name="pages" class="form-control"required autocomplete="off"></td>
+        </tr>
+        <tr>
+            <td>Price </td>
+            <td><input type="number" name="price"class="form-control"required autocomplete="off" ></td>
+        </tr>
+        <tr>
+            <td>Language</td>
+            <td><input type="text" name="language"class="form-control"required autocomplete="off" ></td>
+        </tr>
+        <tr>
+			<td></td>
+			<td><input type="submit"name="submit"class="btn btn-primary"></td>
+		</tr>
+    </table>
+</form>
+<hr>
+<a href="/">Home</a>
+</div>
+</body>
+</html>
